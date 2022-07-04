@@ -81,7 +81,7 @@ public class checkoutSteps extends BaseClass {
         WebElement amountDropdown = driver.findElement(By.xpath("//select[contains(@name,'nr_rooms')]"));
         javascriptScrollToElement(amountDropdown);
         Select select= new Select(amountDropdown);
-        select.selectByValue("0");
+        select.selectByValue("1");
 
     }
     @And("take the screenshot and close browser")

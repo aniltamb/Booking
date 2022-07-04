@@ -1,0 +1,4 @@
+stepDefinition\checkoutSteps.class
+Runner\TestRunner.class
+Test\Test.class
+Test\Test2.class
