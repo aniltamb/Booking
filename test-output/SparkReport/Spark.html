@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Booking.com</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jun 27, 2022 01:24:09 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jul 4, 2022 12:21:28 PM</span></a>
 </li>
 </ul>
 </div>
@@ -86,7 +86,7 @@
           <div class="test-detail">
             <p class="name">User can select and book the maximum rating property</p>
             <p class="text-sm">
-              <span>13:24:10</span> / <span>00:01:19:118</span>
+              <span>12:21:29</span> / <span>00:00:43:511</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -95,9 +95,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">User can select and book the maximum rating property</h5>
-<span class='badge badge-success'>06.27.2022 13:24:10</span>
-<span class='badge badge-danger'>06.27.2022 13:25:29</span>
-<span class='badge badge-default'>00:01:19:118</span>
+<span class='badge badge-success'>07.04.2022 12:21:29</span>
+<span class='badge badge-danger'>07.04.2022 12:22:13</span>
+<span class='badge badge-default'>00:00:43:511</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -129,59 +129,18 @@
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.click_on_the_maximum_property_location()">
+              <div class="step fail-bg" title="stepDefinition.checkoutSteps.click_on_the_maximum_property_location()">
                 <span>When click on the maximum property location</span>
       <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.select_checkin_date_and_checkout_date_for_days(java.lang.Integer)">
-                <span>And select checkin date and checkout date for 6 days</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.add_adult(java.lang.Integer)">
-                <span>And add 2 adult</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.add_child_with_years_age(java.lang.Integer)">
-                <span>And add 1 child with 15 years age</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.add_child_with_years_age(java.lang.Integer)">
-                <span>And add 1 child with 12 years age</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.addRooms(int)">
-                <span>And add 2 rooms</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.click_on_search_button()">
-                <span>And click on search button</span>
-      <div>
-      </div>
-              </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.user_should_see_the_property_result_page()">
-                <span>Then User should see the property result page</span>
-      <div>
-      </div>
-              </div>
-              <div class="step fail-bg" title="stepDefinition.checkoutSteps.user_apply_star_rating_filter_and_click_maximum_rated_property()">
-                <span>When User apply 5 star rating filter and click maximum rated property</span>
-      <div>
-        <textarea disabled class="code-block">org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from unknown error: unexpected command response
-  (Session info: chrome=103.0.5060.53)
+        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
 Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'ATAMBE-LAP-0278', ip: '172.27.246.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+System info: host: 'ATAMBE-LAP-0278', ip: '192.168.100.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3f318f400a7a3bd826d86d0c16cf4233, getElementText {id=4cc682f4-b138-4764-b3ef-27d5deee2b62}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\coditas\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60368/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (3f318f400a7a3bd826d86d0c16cf4233)] -> xpath: //div[contains(@class,'d10a6220b4')]]
-Session ID: 3f318f400a7a3bd826d86d0c16cf4233
+Command: [1fa89aa98d4f3796840293b4cfa328c6, executeScript {script=arguments[0].click();, args=[{ELEMENT=9e06988e-22b0-4dd7-98ee-d4f33bfac3b6, element-6066-11e4-a52e-4f735466cecf=9e06988e-22b0-4dd7-98ee-d4f33bfac3b6}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\coditas\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55451/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa89aa98d4f3796840293b4cfa328c6
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -193,13 +152,52 @@ Session ID: 3f318f400a7a3bd826d86d0c16cf4233
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:207)
-	at Pages.SearchResultPage.getMaxRatedProperty(SearchResultPage.java:42)
-	at stepDefinition.checkoutSteps.user_apply_star_rating_filter_and_click_maximum_rated_property(checkoutSteps.java:65)
-	at ✽.User apply 5 star rating filter and click maximum rated property(file:///C:/Users/coditas/IdeaProjects/BK/src/test/java/Feature/checkout.feature:15)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:522)
+	at Utility.BaseClass.javascriptClick(BaseClass.java:58)
+	at stepDefinition.checkoutSteps.click_on_the_maximum_property_location(checkoutSteps.java:37)
+	at ✽.click on the maximum property location(file:///C:/Users/coditas/IdeaProjects/BK/src/test/java/Feature/checkout.feature:7)
 </textarea>
       
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.select_checkin_date_and_checkout_date_for_days(java.lang.Integer)">
+                <span>And select checkin date and checkout date for 6 days</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.add_adult(java.lang.Integer)">
+                <span>And add 2 adult</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.add_child_with_years_age(java.lang.Integer)">
+                <span>And add 1 child with 15 years age</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.add_child_with_years_age(java.lang.Integer)">
+                <span>And add 1 child with 12 years age</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.addRooms(int)">
+                <span>And add 2 rooms</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.click_on_search_button()">
+                <span>And click on search button</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.user_should_see_the_property_result_page()">
+                <span>Then User should see the property result page</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.user_apply_star_rating_filter_and_click_maximum_rated_property()">
+                <span>When User apply 5 star rating filter and click maximum rated property</span>
+      <div>Step skipped
       </div>
               </div>
               <div class="step skip-bg" title="stepDefinition.checkoutSteps.new_window_should_open()">
@@ -331,12 +329,12 @@ Session ID: 3f318f400a7a3bd826d86d0c16cf4233
 <span class="meta">
 <span class='badge log badge-danger'>1</span>
 </span>
-<p class="name">org.openqa.selenium.WebDriverException</p>
+<p class="name">org.openqa.selenium.StaleElementReferenceException</p>
 <p class="duration text-sm">1 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>org.openqa.selenium.WebDriverException</h4>
+<h4>org.openqa.selenium.StaleElementReferenceException</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -350,11 +348,11 @@ Session ID: 3f318f400a7a3bd826d86d0c16cf4233
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:24:40 PM</td>
+<td>12:21:37 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='14'>When User apply 5 star rating filter and click maximum rated property</a>
+<a href="#" class="linked" test-id='1' id='6'>When click on the maximum property location</a>
 <div class="">
-<span class="badge badge-default">User can select and book the maximum rating property.User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property.When User apply 5 star rating filter and click maximum rated property</span>
+<span class="badge badge-default">User can select and book the maximum rating property.User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property.When click on the maximum property location</span>
 </div>
 </td>
 </tr>
@@ -375,13 +373,13 @@ Session ID: 3f318f400a7a3bd826d86d0c16cf4233
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jun 27, 2022 01:24:09 PM</h3>
+<h3>Jul 4, 2022 12:21:28 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jun 27, 2022 01:25:29 PM</h3>
+<h3>Jul 4, 2022 12:22:13 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -452,10 +450,10 @@ Session ID: 3f318f400a7a3bd826d86d0c16cf4233
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='86%'><b>26</b> steps passed</small></div>
+<div><small data-tooltip='60%'><b>18</b> steps passed</small></div>
 <div>
 <small data-tooltip='3%'><b>1</b> steps failed,
-<b>3</b> skipped, <b data-tooltip='%'>0</b> others
+<b>11</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -471,7 +469,7 @@ Session ID: 3f318f400a7a3bd826d86d0c16cf4233
 </div></div>
 <script>
 var timeline = {
-"User can select and book the maximum rating property":79.118
+"User can select and book the maximum rating property":43.511
 };
 </script>
 <div class="row">
@@ -491,10 +489,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 26,
+passGrandChild: 18,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 3,
+skipGrandChild: 11,
 infoGrandChild: 0,
 eventsCount: 5,
 };
