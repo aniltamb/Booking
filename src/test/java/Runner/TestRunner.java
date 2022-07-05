@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(features ="src/test/java/Feature",
         glue = "stepDefinition",
+        tags="@Tag1 or @Tag2",
 plugin = {"pretty","html:target/cucumber.html","json:target/cucumber.json",
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 

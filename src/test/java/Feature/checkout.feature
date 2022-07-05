@@ -1,5 +1,5 @@
 Feature: User can select and book the maximum rating property
-
+  @Tag1
   Scenario: User should select maximum property location and should book 3 rooms  for 2 adults and 2 children in the highest rating property
     Given User opens "chrome" browser
     And launch "https://booking.com" URL
@@ -17,6 +17,7 @@ Feature: User can select and book the maximum rating property
     And user should select the amount
     And take the screenshot and close browser
 
+    @Tag2
   Scenario: User should select maximum property location and should book 3 rooms  for 2 adults and 2 children in the highest rating property
     Given User opens "edge" browser
     And launch "https://booking.com" URL

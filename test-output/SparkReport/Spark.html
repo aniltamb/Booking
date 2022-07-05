@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Booking.com</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jul 4, 2022 12:21:28 PM</span></a>
+<a href="#"><span class="badge badge-primary">Jul 4, 2022 02:23:25 PM</span></a>
 </li>
 </ul>
 </div>
@@ -50,6 +50,11 @@
 <li class="nav-item dropdown" onclick="toggleView('exception-view')">
 <a id="nav-exception" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -76,6 +81,12 @@
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
 </li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Tag2</a><a class="dropdown-item" href="#">@Tag1</a>
+</ul>
+</li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
@@ -86,7 +97,7 @@
           <div class="test-detail">
             <p class="name">User can select and book the maximum rating property</p>
             <p class="text-sm">
-              <span>12:21:29</span> / <span>00:00:43:511</span>
+              <span>14:23:26</span> / <span>00:00:29:569</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -95,9 +106,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">User can select and book the maximum rating property</h5>
-<span class='badge badge-success'>07.04.2022 12:21:29</span>
-<span class='badge badge-danger'>07.04.2022 12:22:13</span>
-<span class='badge badge-default'>00:00:43:511</span>
+<span class='badge badge-success'>07.04.2022 14:23:26</span>
+<span class='badge badge-danger'>07.04.2022 14:23:56</span>
+<span class='badge badge-default'>00:00:29:569</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -138,9 +149,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.2.2', revision: '683ccb65d6'
 System info: host: 'ATAMBE-LAP-0278', ip: '192.168.100.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fa89aa98d4f3796840293b4cfa328c6, executeScript {script=arguments[0].click();, args=[{ELEMENT=9e06988e-22b0-4dd7-98ee-d4f33bfac3b6, element-6066-11e4-a52e-4f735466cecf=9e06988e-22b0-4dd7-98ee-d4f33bfac3b6}]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\coditas\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55451/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fa89aa98d4f3796840293b4cfa328c6
+Command: [07faaf9193448e36e5d4dc4acdf35c74, executeScript {script=arguments[0].click();, args=[{ELEMENT=885936ba-8b6e-4b8a-a0be-978725a16fda, element-6066-11e4-a52e-4f735466cecf=885936ba-8b6e-4b8a-a0be-978725a16fda}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\coditas\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:56368}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56368/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 07faaf9193448e36e5d4dc4acdf35c74
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -221,10 +232,10 @@ Session ID: 1fa89aa98d4f3796840293b4cfa328c6
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>User should select maximum property location and should book 3 rooms  for 2 adults and 2 children in the highest rating property</div>
+        <div class="node" id="18"><span class="badge log fail-bg mr-2">Fail</span>User should select maximum property location and should book 3 rooms  for 2 adults and 2 children in the highest rating property</div>
       </div>
     </div>
-        <div class="collapse">
+        <div class="">
           <div class="card-body">
               <div class="step pass-bg" title="stepDefinition.checkoutSteps.user_opens_chrome_browser(java.lang.String)">
                 <span>Given User opens "edge" browser</span>
@@ -241,64 +252,90 @@ Session ID: 1fa89aa98d4f3796840293b4cfa328c6
       <div>
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.click_on_the_maximum_property_location()">
+              <div class="step fail-bg" title="stepDefinition.checkoutSteps.click_on_the_maximum_property_location()">
                 <span>When click on the maximum property location</span>
       <div>
+        <textarea disabled class="code-block">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=103.0.1264.44)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'ATAMBE-LAP-0278', ip: '192.168.100.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ab3a7164d6434cac061e9586c959227c, executeScript {script=arguments[0].click();, args=[{ELEMENT=b9957357-c7c3-41ed-9970-565a5873dbdd, element-6066-11e4-a52e-4f735466cecf=b9957357-c7c3-41ed-9970-565a5873dbdd}]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.44, ms:edgeOptions: {debuggerAddress: localhost:56423}, msedge: {msedgedriverVersion: 103.0.1264.45 (c9e1f39b2be4..., userDataDir: C:\Users\coditas\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56423/devtoo..., se:cdpVersion: 103.0.1264.44, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ab3a7164d6434cac061e9586c959227c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:522)
+	at Utility.BaseClass.javascriptClick(BaseClass.java:58)
+	at stepDefinition.checkoutSteps.click_on_the_maximum_property_location(checkoutSteps.java:37)
+	at ✽.click on the maximum property location(file:///C:/Users/coditas/IdeaProjects/BK/src/test/java/Feature/checkout.feature:25)
+</textarea>
+      
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.select_checkin_date_and_checkout_date_for_days(java.lang.Integer)">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.select_checkin_date_and_checkout_date_for_days(java.lang.Integer)">
                 <span>And select checkin date and checkout date for 6 days</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.add_adult(java.lang.Integer)">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.add_adult(java.lang.Integer)">
                 <span>And add 4 adult</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.add_child_with_years_age(java.lang.Integer)">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.add_child_with_years_age(java.lang.Integer)">
                 <span>And add 1 child with 15 years age</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.add_child_with_years_age(java.lang.Integer)">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.add_child_with_years_age(java.lang.Integer)">
                 <span>And add 1 child with 12 years age</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.addRooms(int)">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.addRooms(int)">
                 <span>And add 3 rooms</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.click_on_search_button()">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.click_on_search_button()">
                 <span>And click on search button</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.user_should_see_the_property_result_page()">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.user_should_see_the_property_result_page()">
                 <span>Then User should see the property result page</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.user_apply_star_rating_filter_and_click_maximum_rated_property()">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.user_apply_star_rating_filter_and_click_maximum_rated_property()">
                 <span>When User apply 5 star rating filter and click maximum rated property</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.new_window_should_open()">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.new_window_should_open()">
                 <span>Then new window should open</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.user_should_select_the_amount()">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.user_should_select_the_amount()">
                 <span>And user should select the amount</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
-              <div class="step pass-bg" title="stepDefinition.checkoutSteps.take_the_screenshot()">
+              <div class="step skip-bg" title="stepDefinition.checkoutSteps.take_the_screenshot()">
                 <span>And take the screenshot and close browser</span>
-      <div>
+      <div>Step skipped
       </div>
               </div>
           </div>
@@ -327,14 +364,76 @@ Session ID: 1fa89aa98d4f3796840293b4cfa328c6
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-danger'>2</span>
 </span>
 <p class="name">org.openqa.selenium.StaleElementReferenceException</p>
-<p class="duration text-sm">1 tests</p>
+<p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
 <h4>org.openqa.selenium.StaleElementReferenceException</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:23:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='6'>When click on the maximum property location</a>
+<div class="">
+<span class="badge badge-default">User can select and book the maximum rating property.User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property.When click on the maximum property location</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:23:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='22'>When click on the maximum property location</a>
+<div class="">
+<span class="badge badge-default">User can select and book the maximum rating property.User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property.When click on the maximum property location</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Tag2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag2</h4>
 <span status="fail" class='badge log badge-danger'>1 failed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -348,11 +447,47 @@ Session ID: 1fa89aa98d4f3796840293b4cfa328c6
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>12:21:37 PM</td>
+<td>14:23:42 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='6'>When click on the maximum property location</a>
+<a href="#" class="linked" test-id='1' id='18'>User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property</a>
 <div class="">
-<span class="badge badge-default">User can select and book the maximum rating property.User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property.When click on the maximum property location</span>
+<span class="badge badge-default">User can select and book the maximum rating property.User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">@Tag1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Tag1</h4>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>14:23:26 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property</a>
+<div class="">
+<span class="badge badge-default">User can select and book the maximum rating property.User should select maximum property location and should book 3 rooms for 2 adults and 2 children in the highest rating property</span>
 </div>
 </td>
 </tr>
@@ -373,13 +508,13 @@ Session ID: 1fa89aa98d4f3796840293b4cfa328c6
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jul 4, 2022 12:21:28 PM</h3>
+<h3>Jul 4, 2022 02:23:25 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jul 4, 2022 12:22:13 PM</h3>
+<h3>Jul 4, 2022 02:23:56 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -430,9 +565,9 @@ Session ID: 1fa89aa98d4f3796840293b4cfa328c6
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='50%'><b>1</b> scenarios passed</small></div>
+<div><small data-tooltip='0%'><b>0</b> scenarios passed</small></div>
 <div>
-<small data-tooltip='50%'><b>1</b> scenarios failed,
+<small data-tooltip='100%'><b>2</b> scenarios failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -450,10 +585,10 @@ Session ID: 1fa89aa98d4f3796840293b4cfa328c6
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='60%'><b>18</b> steps passed</small></div>
+<div><small data-tooltip='20%'><b>6</b> steps passed</small></div>
 <div>
-<small data-tooltip='3%'><b>1</b> steps failed,
-<b>11</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='6%'><b>2</b> steps failed,
+<b>22</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -469,10 +604,35 @@ Session ID: 1fa89aa98d4f3796840293b4cfa328c6
 </div></div>
 <script>
 var timeline = {
-"User can select and book the maximum rating property":43.511
+"User can select and book the maximum rating property":29.569
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Tag2</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Tag1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 </div>
 </div>
 <script>
@@ -483,16 +643,16 @@ failParent: 1,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
-passChild: 1,
-failChild: 1,
+passChild: 0,
+failChild: 2,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 18,
-failGrandChild: 1,
+passGrandChild: 6,
+failGrandChild: 2,
 warningGrandChild: 0,
-skipGrandChild: 11,
+skipGrandChild: 22,
 infoGrandChild: 0,
 eventsCount: 5,
 };
